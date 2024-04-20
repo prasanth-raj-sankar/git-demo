@@ -55,3 +55,34 @@ for(i=0;i<res.length;i++)
 }
 
 }
+
+
+
+function range(start,end){
+  var temp = [];
+  for(var i=start;i<=end;i++){
+   temp.push(i); 
+  }
+  
+  return temp;
+  
+  
+}
+console.log(range(-4,7))
+
+
+
+//anonymous function print the odd number the give array
+var res = function(arr){
+
+  var temp = [];
+  for(var i=0;i<arr.length;i++){
+
+    if(arr[i]%2!=0){
+        temp.push(arr[i])
+  }
+}
+  return temp;
+  }
+  console.log(res([12,13,14,15,16,17,18]));
+  
