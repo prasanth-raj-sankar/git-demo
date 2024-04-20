@@ -41,7 +41,7 @@ for(var i=0;i<res.length;i++)
 }
 
 
-//print the name array to the object the method of arrray of object 
+//print the name of array to the object the method of arrray of object 
 for(var i=0;i<res.length;i++)
 {
   console.log(res[i].name.common,res[i].name.official)
