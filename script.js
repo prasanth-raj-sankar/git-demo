@@ -17,6 +17,13 @@ request.open("GET","https://restcountries.com/v3.1/all")
 
 request.send()
 
+
+//step 04:
+//once the data has been successfully receives from the server
+//if the status code of the server is 200
+//then we need to process the data
+
+
 //there the JSON.parse converts the JSON string into array of object
 
 request.onload = function(){
