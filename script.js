@@ -90,3 +90,37 @@ var res = function(arr){
   }
   console.log(res([12,13,14,15,16,17,18]));
   
+
+//write a javascript function to get the first element of an array . passing a parameter 'n' will return the first 'n' elements of the array
+
+// function foo(arr,n){
+
+//   if(n == undefined)
+//   return arr[0];
+
+//   if(n>0)
+//  return[];
+
+//   return arr.slice(0,n);
+
+//   }
+
+//   console.log(foo([1,2,3,4],3));
+
+
+
+function last(arr,n){
+  if(n == undefined)
+  return arr[3];
+
+  return arr.slice(-n);
+
+  
+}
+console.log(last([7,9,0,-2]));
+
+console.log(last([7,9,0,-2],3));
+
+console.log(last([7,9,0,-2],6));
+
+
