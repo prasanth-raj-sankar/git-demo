@@ -124,3 +124,8 @@ console.log(last([7,9,0,-2],3));
 console.log(last([7,9,0,-2],6));
 
 
+
+//write a javascript progrm to find the most frequent item of an array
+
+// var arr = [3,'q','q','q',2,3,'q',2,,9,3,4];
+
